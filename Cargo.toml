@@ -1,0 +1,11 @@
+[package]
+name = "lab_triangulos"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+raylib = "6.0"
+image = { version = "0.25", default-features = false, features = ["png"] }
+
+[profile.release]
+debug = true
